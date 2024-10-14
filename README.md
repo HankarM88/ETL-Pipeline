@@ -13,15 +13,15 @@ In this pipeline, we  implement an offline simple ETL (Extract, Transform, Load)
 - nltk
 
 ### Installation 
-1. Clone the Repository:
-```bash git clone https://github.com/HankarM88/ETL-Pipeline```
-2. Install Dependencies:
-```bash pip install -r requirements.txt```
+1. Clone the Repository:<br>
+```git clone https://github.com/HankarM88/ETL-Pipeline```
+3. Install Dependencies:<br>
+```pip install -r requirements.txt```
 
 ### Usage
-1. Run ETL Pipeline 
-```bash python3 etl.py```
-2. Execution:
+1. Run ETL Pipeline:<br> 
+```python3 etl.py```
+2. Execution:<br>
 - Load data from the data/reviews.csv file.
 - Apply the transformations(cleaning and preprocessing).
 - Ingest processed data into  MySQL database.
