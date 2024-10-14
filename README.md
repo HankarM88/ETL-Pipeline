@@ -1,5 +1,5 @@
 # Building An offline ETL Pipeline 
-In this pipeline, we  implement an offline simple ETL (Extract, Transform, Load) pipeline using a CSV file as the data source. The pipeline performs data extraction, applies necessary transformations, and loads the transformed data into MySQL database.
+In this pipeline, we  implement an offline simple ETL (Extract, Transform, Load) pipeline using a CSV file as the data source. The pipeline performs data extraction, applies necessary transformations, and loads the transformed data into a MySQL database.
 
 ### Features
 - **Data Extraction**: Reads data from a CSV file.
@@ -7,8 +7,8 @@ In this pipeline, we  implement an offline simple ETL (Extract, Transform, Load)
 - **Data Loading**: Ingests the transformed data into MySQL database. 
 
 ### Requirements  
-- Pandas
-- SQLalchemy
+- pandas
+- sqlalchemy
 - airflow
 - nltk
 
