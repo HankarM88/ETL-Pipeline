@@ -21,8 +21,13 @@ In this pipeline, we  implement an offline simple ETL (Extract, Transform, Load)
 ### Usage
 1. Run ETL Pipeline:<br> 
 ```python3 etl.py```
-2. Execution:<br>
+2. Execution:
 - Load data from the data/reviews.csv file.
 - Apply the transformations(cleaning and preprocessing).
 - Ingest processed data into  MySQL database.
+3. Scheduling:<br>
+To automatically schedule the pipeline once a day, trigger the schedule file:<br>
+```python3 schedule.py```
+  
+
 
