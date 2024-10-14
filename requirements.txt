@@ -1,5 +1,5 @@
-pip install pandas 
-pip install airflow
-pip install nltk 
-pip install sqlalchemy
-pip install pymysql
+pandas 
+airflow
+nltk 
+sqlalchemy
+pymysql
