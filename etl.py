@@ -23,8 +23,8 @@ def transform(df):
 def load(df) -> None:
     """ Load Data into MySQL"""
     # Define MySQL database connection parameters
-    user = 'hk'
-    password = 'momokar88'
+    user = 'username'
+    password = 'password'
     host = 'localhost'
     port = 3306
     db = 'british_airways'
